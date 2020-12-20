@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2">
+
+        <!--Header row-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/item"
+                style="@style/HeaderStyle"
+                android:text="@string/item"
+
+                />
+
+            <TextView
+                android:id="@+id/weight"
+                style="@style/HeaderStyle"
+                android:text="@string/weight" />
+
+            <TextView
+                android:id="@+id/value"
+                style="@style/HeaderStyle"
+                android:text="@string/value" />
+
+
+        </TableRow>
+
+        <!--Row 1 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input1"
+                style="@style/NumberStyle"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/weight_input1"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input1"
+                style="@style/TableInputStyle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input2"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/weight_input2"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input2"
+                style="@style/TableInputStyle" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input3"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <EditText
+                android:id="@+id/weight_input3"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input3"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input4"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/weight_input4"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input4"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input5"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/weight_input5"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input5"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input6"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/weight_input6"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input6"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input7"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/weight_input7"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input7"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input8"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8" />
+
+            <EditText
+                android:id="@+id/weight_input8"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input8"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input9"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/weight_input9"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input9"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_input10"
+                style="@style/NumberStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/weight_input10"
+                style="@style/TableInputStyle" />
+
+            <EditText
+                android:id="@+id/value_input10"
+                style="@style/TableInputStyle" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        android:stretchColumns="1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/capacity"
+                style="@style/LabelStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capacity" />
+
+            <EditText
+                android:id="@+id/capacity_input"
+                style="@style/TableInputStyle"
+                android:hint="Generate..."
+                android:textSize="28sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/calculate"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:onClick="done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+
+        />
+
+    <Button
+        android:id="@+id/random"
+        style="@style/buttonStyle"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/random"
+        android:onClick="random"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

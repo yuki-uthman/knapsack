@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="TextStyle" parent="android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <style name="LabelStyle" parent="TextStyle">
+        <item name="android:background">@color/lightGray</item>
+        <item name="android:minWidth">120dp</item>
+        <!--<item name="android:layout_marginStart">16dp</item>-->
+    </style>
+
+
+    <style name="TableStyle" parent="android:style/TextAppearance">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+
+    <style name="HeaderStyle" parent="TableStyle" >
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@color/lightGray</item>
+    </style>
+
+    <style name="HeaderStyle2" parent="TableStyle" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/lightGray</item>
+    </style>
+
+    <style name="ResultHeaderStyle" parent="TableStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/lightGray</item>
+        <!--<item name="android:textColor">@color/white</item>-->
+    </style>
+
+    <style name="NumberStyle" parent="TableStyle" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/border</item>
+
+
+    </style>
+
+    <style name="TableInputStyle" parent="TableStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/border</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">phone</item>
+
+    </style>
+
+    <style name="ResultStyle" parent="TableStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@drawable/result_table</item>
+    </style>
+
+    <style name="TotalStyle" parent="ResultStyle">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name = "android:textSize">25sp</item>
+        <item name="android:background">@drawable/total_table</item>
+    </style>
+
+    <style name="TotalHeaderStyle" parent="ResultHeaderStyle">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/total_header</item>
+    </style>
+
+    <style name="buttonStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+
+</resources>

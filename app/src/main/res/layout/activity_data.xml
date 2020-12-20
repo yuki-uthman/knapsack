@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/LabelStyle"
+        android:text="@string/result"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/result_header"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <!--Header Row-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_header"
+                style="@style/ResultHeaderStyle"
+                android:text="@string/item" />
+
+            <TextView
+                android:id="@+id/weight_header"
+                style="@style/ResultHeaderStyle"
+                android:text="@string/weight" />
+
+            <TextView
+                android:id="@+id/value_header"
+                style="@style/ResultHeaderStyle"
+                android:text="@string/value" />
+
+            <TextView
+                android:id="@+id/density_header"
+                style="@style/ResultHeaderStyle"
+                android:text="@string/ratio" />
+
+            <TextView
+                android:id="@+id/fraction_header"
+                style="@style/ResultHeaderStyle"
+                android:minWidth="70dp"
+                android:text="@string/fraction" />
+
+        </TableRow>
+
+        <!--Row 1-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/itemID_output1"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output1"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output1"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output1"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output1"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 2-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemID_output2"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output2"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output2"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output2"
+                style="@style/ResultStyle" />
+
+            <TextView
+            android:id="@+id/fraction_output2"
+            style="@style/ResultStyle" />
+
+
+        </TableRow>
+
+        <!--Row 3 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemID_output3"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output3"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output3"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output3"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output3"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 4 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemID_output4"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output4"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output4"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output4"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output4"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 5 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row5">
+
+            <TextView
+                android:id="@+id/itemID_output5"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output5"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output5"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output5"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output5"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 6-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row6">
+
+            <TextView
+                android:id="@+id/itemID_output6"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output6"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output6"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output6"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output6"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 7-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row7">
+
+            <TextView
+                android:id="@+id/itemID_output7"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output7"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output7"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output7"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output7"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 8-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row8">
+
+            <TextView
+                android:id="@+id/itemID_output8"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output8"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output8"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output8"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output8"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 9-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row9">
+
+            <TextView
+                android:id="@+id/itemID_output9"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output9"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output9"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output9"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output9"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+        <!--Row 10-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row10">
+
+            <TextView
+                android:id="@+id/itemID_output10"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/weight_output10"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/value_output10"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/density_output10"
+                style="@style/ResultStyle" />
+
+            <TextView
+                android:id="@+id/fraction_output10"
+                style="@style/ResultStyle" />
+
+        </TableRow>
+
+
+
+
+
+        <!--Black Line-->
+        <View
+            android:id="@+id/red_line"
+            android:layout_width="match_parent"
+            android:layout_height="3dip"
+            android:layout_marginTop="20dp"
+            android:background="@color/dim_gray"/>
+
+
+        <!--Total Row -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/total"
+                style="@style/TotalHeaderStyle"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/total_weight"
+                style="@style/TotalStyle" />
+
+            <TextView
+                android:id="@+id/total_value"
+                style="@style/TotalStyle"/>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button"
+        android:onClick="back"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
+
+</android.support.constraint.ConstraintLayout>

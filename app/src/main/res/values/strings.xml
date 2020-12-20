@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Knapsack</string>
+
+    <string name="capacity">Capacity (kg)</string>
+    <string name="item">Item</string>
+    <string name="fraction">%</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="value">Value ($)</string>
+    <string name="calculate">Done!</string>
+    <string name="random">Generate</string>
+    <string name="ratio">Density</string>
+
+    <string name="result">Result</string>
+    <string name="total">Total</string>
+
+    <string name="back">Back!</string>
+</resources>
